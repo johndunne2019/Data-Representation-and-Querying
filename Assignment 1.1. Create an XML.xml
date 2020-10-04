@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+	<book catalogue="technical">
+		<title>Techinal Analysis of the Financial Markets</title>
+		<author>John J Murphy</author>
+		<ISBN-10>0735200653</ISBN-10>
+		<ISBN-13>978-0735200654</ISBN-13>
+	</book>
+	<book catalogue="technical">
+		<title>Civil Engineering A Very Short Introduction</title>
+		<author>David Muir Wood</author>
+		<ISBN-10>019957863X</ISBN-10>
+		<ISBN-13>978-0199578634</ISBN-13>
+	</book>
+	<book catalogue="cookery">
+		<title>7 Ways: Ideas for every day of the week</title>
+		<author>Jamie Oliver</author>
+		<ISBN-10>0241431158</ISBN-10>
+		<ISBN-13>978-0241431153</ISBN-13>
+	</book>
+	<book catalogue="cookery">
+		<title>Mary Berry's Complete Cookbook: Over 650 recipes</title>
+		<author>Mary Berry</author>
+		<ISBN-10>0241286123</ISBN-10>
+		<ISBN-13>978-0241286128</ISBN-13>
+	</book>
+</library>
