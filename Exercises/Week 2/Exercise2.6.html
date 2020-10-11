@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>e2.6</title>
+
+    </head>
+    <body>
+        <input type="number" onchange="checkNumber(this)"/>
+        <!-- the this keyword says this elements, means we dont need an id on the element-->
+        <br/>
+        <div id="output">
+            output here
+        </div>
+        <script>
+            // if statements in javascript
+            function checkNumber(inputElement){
+                var value = inputElement.value
+                if( value <10){
+                    document.getElementById("output").innerText = "too low"
+                }else if (value > 10){
+                    document.getElementById("output").innerText = "too high"
+                }else{
+                    document.getElementById("output").innerText = "just right"
+                }
+
+            }
+        </script>
+    </body>
+</html>

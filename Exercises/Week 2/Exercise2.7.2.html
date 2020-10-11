@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>e2.6</title>
+        <!-- make a webpage that outputs all the values of an array-->
+        <!-- practicing using a for loop with an array -->
+    </head>
+    <body>
+        <div id ="output">
+            output here
+        </div>
+        <script>
+            // if statements in javascript
+            var names=['Joe','Mary','Fred']
+            var output =''
+            for (name of names){
+                output += name + '<br/>'
+            }
+            console.log(output)
+            document.getElementById("output").innerHTML = output
+        </script>
+    </body>
+</html>
