@@ -1,0 +1,23 @@
+Week 5 Lecture 1 - CURL
+I have saved below the commands run to complete lab 1 CURL.
+
+Type the following commands on command line
+
+To view the entire webpage:
+curl http://andrewbeatty1.pythonanywhere.com/books
+
+To view the header and response code
+curl -i http://andrewbeatty1.pythonanywhere.com/books
+
+To view just one book:
+curl http://andrewbeatty1.pythonanywhere.com/books
+
+Adding a book (note the way the quotation marks have to be escaped):
+curl -H "Content-Type:application/json" -X POST -d "{\"Title\":\"xxx\",\"Author\":\"xxx\", \"Price\":3000}" http://andrewbeatty1.pythonanywhere.com/books
+result - {"Author":"xxx","Price":3000,"Title":"xxx","id":49}
+
+Updating book 49 that I just created:
+curl -H "Content-Type:application/json" -X PUT -d "{\"Price\":2000}" http://andrewbeatty1.pythonanywhere.com/books/49
+
+Deleting the book I made:
+curl -X DELETE http://andrewbeatty1.pythonanywhere.com/books/49
