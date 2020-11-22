@@ -1,0 +1,46 @@
+MySQL commands
+
+Open Wamp -> MySQL -> MySQL databases
+
+show databases;
+
+create database name;
+
+use database_name
+
+create a new table in database 
+mysql> create table student(
+    -> id int NOT NULL auto_increment,
+    -> firstname varchar(100),
+    -> age int(3),
+    -> PRIMARY KEY(id)
+    -> );
+
+mysql> insert into student (firstname,age) values ('joe', 56);
+
+mysql> select * from student;
+
+mysql> update student set firstname='mary' where id = 1;
+
+mysql> Delete from student where id = 1;
+
+Make sure you do not forget the semi colon (;) if you are stuck in the middle of a command use ctrl-c
+
+Make a table called book that has 4 columns (id, title, author, price) and insert some data
+into it.
+
+mysql> create table books(
+    -> id int NOT NULL auto_increment,
+    -> title varchar(100),
+    -> author varchar(100),
+    -> price int(3),
+    -> PRIMARY KEY(id)
+    -> );
+
+mysql> insert into books (title,author,price) values ('test','test', 123);
+
+mysql> select * from books;
+
+Look at the tables in phpmyadmin.
+
+Open through Wamp username root and password blank
